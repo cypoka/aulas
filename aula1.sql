@@ -14,8 +14,6 @@ alter table cadastro.pessoas add column `id` int(10) unsigned primary KEY AUTO_I
 
 alter table cadastro.pessoas add column `newid` int(10) unsigned primary KEY AUTO_INCREMENT;
 
-alter table pessoas DROP PRIMARY KEY;
-
 ALTER TABLE pessoas MODIFY id INT NOT NULL;
 
 ALTER TABLE pessoas DROP PRIMARY KEY;

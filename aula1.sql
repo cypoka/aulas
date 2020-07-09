@@ -8,6 +8,7 @@ altura decimal (5,2),
 nacionalidade varchar (20) default 'Brasil'
 );
 
+-- TESTE
 
 alter table cadastro.pessoas add column `id` int(10) unsigned primary KEY AUTO_INCREMENT;
 
